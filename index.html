@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<title>HTML5 Testes</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="estilo.css">
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
+<script src="js/classie.js"></script>
+<script>
+    function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 300,
+                header = document.querySelector("header");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"smaller");
+            } else {
+                if (classie.has(header,"smaller")) {
+                    classie.remove(header,"smaller");
+                }
+            }
+        });
+    }
+    window.onload = init();
+</script>
+</head>
+<body>
+
+<header>
+	<div class="center">
+		<div id="logo">
+			<h1>TESTANDO NOVAS TAGS DO HTML5</h1>
+		</div>
+				
+		<div id="menu">
+			<nav>
+				<a href="#">O Hugo</a>
+				<a href="#">é um</a>
+				<a href="#">grande Noob</a>
+			</nav>
+		</div>
+	</div>
+</header>
+
+<section id="firstSection">
+	<div class="center">
+		<div id="textSection1">
+			<h1>Web Design</h1>
+			<h3>Desenvolvimento web com responsividade tornando seu site disponível em diferentes plataformas.</h3>
+		</div>
+		
+		<div id="imageSection1">
+		</div>
+	</div>
+</section>
+
+<section id="secondSection">
+	<div class="center">
+		<h3>Mais alguma coisa</h3>
+	</div>
+</section>
+
+<section id="thirdSection">
+	<div class="center">
+		<h3>Mais alguma coisa</h3>
+	</div>
+</section>
+
+<footer>
+
+</footer>
+
+</body>
+</html>
