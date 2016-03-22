@@ -1,0 +1,217 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: "Avenir Next Condensed";
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+	text-decoration: none;
+}
+
+
+/* Início */
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #FFF;
+	width: 100%;
+	height: 80px;
+	border-bottom: 1px solid #DD690A;
+	-webkit-transition: height 0.2s;
+    -moz-transition: height 0.2s;
+    -ms-transition: height 0.2s;
+    -o-transition: height 0.2s;
+    transition: height 0.2s;
+}
+
+div.center{
+	max-width: 900px;
+	min-width: 575px;
+	padding: 10px;
+	height: calc(100% - 20px);/* CÁLCULO UTILIZADO PARA TIRAR OS 20px DO PADDING */
+	margin: auto;
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
+}
+
+header div.center div#logo{
+	float: left;
+}
+
+/*header div.center div#logo h1{
+	color: #FFF;
+	font-weight: bold;
+	font-size: 38px;
+	font-style: italic;
+	line-height: 50px;
+	-webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}*/
+
+header div.center div#logo img{
+	width: 120px;
+	height: auto;
+	-webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+header div.center div#menu{
+	flex-grow: 1;
+}
+
+header div.center div#menu nav{
+	float: right;
+}
+
+
+header div.center div#menu a{
+	line-height: 30px;
+	padding: 15px;
+	display: block;
+	color: #444;
+	font-size: 18px;
+	float: left;
+	-webkit-transition: line-height 0.2s;
+    -moz-transition: line-height 0.2s;
+    -ms-transition: line-height 0.2s;
+    -o-transition: line-height 0.2s;
+    transition: line-height 0.2s;
+}
+
+header div.center div#menu a:hover{
+	background-color: #E0821B;
+	color: #FFF;
+}
+
+header.smaller{
+	height: 50px;
+}
+header.smaller div.center div#logo h1{
+	line-height: 30px;
+}
+header.smaller div.center div#logo img{
+	width: 65px;
+}
+header.smaller div.center div#menu nav a{
+	line-height: 0px;
+}
+
+
+section{
+	height: 550px;
+	background-color: gray;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+section#firstSection {
+	padding-top: 70px;
+	background-image: url("background1.png");
+}
+
+section#firstSection div#textSection1{
+	float: left;
+	width: 400px;
+	height: 100%;
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+}
+
+section#firstSection div#textSection1 h1{
+	font-size: 65px;
+	line-height: normal;
+	font-weight: 300;
+
+}
+
+section#firstSection div#textSection1 h3{
+	font-size: 30px;
+	line-height: normal;
+	text-align: left;
+
+}
+
+
+section#firstSection div#imageSection1{
+	float: right;
+	width: 500px;
+	height: 100%;
+	background-image: url("img-section1.png");
+	background-size: 100% auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+section#secondSection {
+	background-image: url("background2.jpg");
+}
+
+section#thirdSection {
+	background-image: url("background3.jpg");
+}
+
+footer{
+	height: 300px;
+	background-color: orange;
+}
+
