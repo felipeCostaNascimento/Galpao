@@ -98,7 +98,7 @@ header div.center div#logo{
 }*/
 
 header div.center div#logo img{
-	width: 100px;
+	width: 120px;
 	height: auto;
 	-webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
@@ -117,7 +117,7 @@ header div.center div#menu nav{
 
 
 header div.center div#menu a{
-	line-height: 30px;
+	line-height: 40px;
 	padding: 10px;
 	background-color: #DDD;
 	display: block;
