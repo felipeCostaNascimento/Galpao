@@ -121,7 +121,7 @@ header div.center div#menu a{
 	line-height: 30px;
 	padding: 15px;
 	display: block;
-	color: #777;
+	color: #444;
 	font-size: 18px;
 	float: left;
 	-webkit-transition: line-height 0.2s;
@@ -132,8 +132,8 @@ header div.center div#menu a{
 }
 
 header div.center div#menu a:hover{
-
-	color: #0884FF;
+	background-color: #DD690A;
+	color: #FFF;
 }
 
 header.smaller{
