@@ -81,13 +81,14 @@ div.center{
 }
 
 header div.center div#logo{
-	background-color: #CCC;
 	float: left;
 }
 
 header div.center div#logo h1{
-	color: #000;
-	font-size: 30px;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 38px;
+	font-style: italic;
 	line-height: 50px;
 	-webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
