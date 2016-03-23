@@ -101,6 +101,7 @@ header div.center div#logo{
 header div.center div#logo img{
 	width: 120px;
 	height: auto;
+	display: block;
 	-webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     -ms-transition: all 0.2s;
@@ -132,8 +133,7 @@ header div.center div#menu a{
 }
 
 header div.center div#menu a:hover{
-	background-color: #E0821B;
-	color: #FFF;
+	color: #E0821B;
 }
 
 header.smaller{
@@ -181,7 +181,7 @@ section#firstSection div#textSection1 h1{
 	font-size: 65px;
 	line-height: normal;
 	font-weight: 300;
-
+	
 }
 
 section#firstSection div#textSection1 h3{
