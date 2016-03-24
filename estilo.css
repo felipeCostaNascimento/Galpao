@@ -83,6 +83,20 @@ div.center{
 
 header div.center div#logo{
 	float: left;
+	width: 120px;
+	background-image: url("logo-actioncode.png");
+	background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
+	image-rendering: optimizeQuality;
+	-webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
 }
 
 /*header div.center div#logo h1{
@@ -98,7 +112,7 @@ header div.center div#logo{
     transition: all 0.2s;
 }*/
 
-header div.center div#logo img{
+/*header div.center div#logo img{
 	width: 120px;
 	height: auto;
 	display: block;
@@ -107,7 +121,7 @@ header div.center div#logo img{
     -ms-transition: all 0.2s;
     -o-transition: all 0.2s;
     transition: all 0.2s;
-}
+}*/
 
 header div.center div#menu{
 	flex-grow: 1;
@@ -142,7 +156,7 @@ header.smaller{
 header.smaller div.center div#logo h1{
 	line-height: 30px;
 }
-header.smaller div.center div#logo img{
+header.smaller div.center div#logo{
 	width: 65px;
 }
 header.smaller div.center div#menu nav a{
