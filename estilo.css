@@ -218,9 +218,9 @@ section#firstSection div#textSection1 h3{
 section#firstSection div#imageSection1{
 	float: right;
 	width: 500px;
-	height: 400px;
+	height: 300px;
 	background-image: url("img-section1.png");
-	background-size: 100% auto;
+	background-size: contain;
 	background-position: center center;
 	background-repeat: no-repeat;
 }
