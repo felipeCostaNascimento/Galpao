@@ -88,14 +88,14 @@ header div.center div#logo{
 	-moz-background-size:contain;
 	-o-background-size:contain;
 	background-size:contain;
-	background-position:center center;
+	background-position: left center;
 	image-rendering: optimizeQuality;
 	-webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     -ms-transition: all 0.2s;
     -o-transition: all 0.2s;
     transition: all 0.2s;
-    float: left;
+    flex-grow: 1;
 }
 
 /*header div.center div#logo h1{
@@ -123,7 +123,11 @@ header div.center div#logo{
 }*/
 
 header div.center div#menu{
-	flex-grow: 1;
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
 }
 
 header div.center div#menu nav{
