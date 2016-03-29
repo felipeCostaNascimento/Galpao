@@ -70,7 +70,6 @@ header{
 
 div.center{
 	max-width: 900px;
-	min-width: 575px;
 	padding: 10px;
 	height: calc(100% - 20px);/* CÁLCULO UTILIZADO PARA TIRAR OS 20px DO PADDING */
 	margin: auto;
