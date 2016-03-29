@@ -177,10 +177,10 @@ section{
 }
 
 section#firstSection {
-	padding-top: 90px;
+	padding-top: 200px;
 	background-image: url("background1.png");
 	height: auto;
-	padding-bottom: 20px;
+	padding-bottom: 120px;
 }
 
 section#firstSection div.center{
