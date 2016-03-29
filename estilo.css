@@ -177,18 +177,19 @@ section{
 }
 
 section#firstSection {
-	padding-top: 70px;
+	padding-top: 90px;
 	background-image: url("background1.png");
+	height: auto;
+	padding-bottom: 20px;
 }
 
 section#firstSection div.center{
 	flex-flow: row wrap;
+	align-items: center;
 }
 
 section#firstSection div#textSection1{
-	float: left;
 	width: 400px;
-	height: 100%;
 	display: -webkit-box;
   	display: -moz-box;
   	display: -ms-flexbox;
@@ -217,7 +218,7 @@ section#firstSection div#textSection1 h3{
 section#firstSection div#imageSection1{
 	float: right;
 	width: 500px;
-	height: 100%;
+	height: 400px;
 	background-image: url("img-section1.png");
 	background-size: 100% auto;
 	background-position: center center;
