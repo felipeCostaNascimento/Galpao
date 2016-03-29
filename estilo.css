@@ -80,10 +80,6 @@ div.center{
   	display: flex;
 }
 
-header div.center{
-	flex-flow: row;
-}
-
 header div.center div#logo{
 	width: 120px;
 	background-image: url("logo-actioncode.png");
@@ -183,6 +179,10 @@ section{
 section#firstSection {
 	padding-top: 70px;
 	background-image: url("background1.png");
+}
+
+section#firstSection div.center{
+	flex-flow: row wrap;
 }
 
 section#firstSection div#textSection1{
