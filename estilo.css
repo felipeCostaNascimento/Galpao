@@ -80,6 +80,10 @@ div.center{
   	display: flex;
 }
 
+header div.center{
+	flex-flow: row;
+}
+
 header div.center div#logo{
 	width: 120px;
 	background-image: url("logo-actioncode.png");
