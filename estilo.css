@@ -82,13 +82,13 @@ div.center{
 
 header div.center div#logo{
 	float: left;
-	width: 120px;
+	max-width: 120px;
 	background-image: url("logo-actioncode.png");
 	background-repeat:no-repeat;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	background-size:cover;
+	-webkit-background-size:contain;
+	-moz-background-size:contain;
+	-o-background-size:contain;
+	background-size:contain;
 	background-position:center;
 	image-rendering: optimizeQuality;
 	-webkit-transition: all 0.2s;
