@@ -57,15 +57,14 @@ header{
 	position: fixed;
 	top: 0;
 	left: 0;
-	background-color: #FFF;
+	background-color: rgba(255, 255, 255, 0);
 	width: 100%;
-	height: 80px;
-	border-bottom: 1px solid #DD690A;
-	-webkit-transition: height 0.2s;
-    -moz-transition: height 0.2s;
-    -ms-transition: height 0.2s;
-    -o-transition: height 0.2s;
-    transition: height 0.2s;
+	height: 70px;
+	-webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -ms-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    transition: background-color 0.5s;
 }
 
 div.center{
@@ -82,7 +81,7 @@ div.center{
 
 header div.center div#logo{
 	width: 120px;
-	background-image: url("logo-actioncode.png");
+	background-image: url("logo-actioncode-branco.png");
 	background-repeat:no-repeat;
 	-webkit-background-size:contain;
 	-moz-background-size:contain;
@@ -90,11 +89,11 @@ header div.center div#logo{
 	background-size:contain;
 	background-position: left center;
 	image-rendering: optimizeQuality;
-	-webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-    -ms-transition: all 0.2s;
-    -o-transition: all 0.2s;
-    transition: all 0.2s;
+	-webkit-transition: background-image 0.5s;
+    -moz-transition: background-image 0.5s;
+    -ms-transition: background-image 0.5s;
+    -o-transition: background-image 0.5s;
+    transition: background-image 0.5s;
     flex-grow: 1;
 }
 
@@ -136,34 +135,37 @@ header div.center div#menu nav{
 
 
 header div.center div#menu a{
-	line-height: 30px;
+	line-height: 20px;
 	padding: 15px;
 	display: block;
-	color: #444;
+	color: #FFF;
 	font-size: 18px;
 	float: left;
-	-webkit-transition: line-height 0.2s;
-    -moz-transition: line-height 0.2s;
-    -ms-transition: line-height 0.2s;
-    -o-transition: line-height 0.2s;
-    transition: line-height 0.2s;
+	-webkit-transition: line-height 0.5s;
+    -moz-transition: line-height 0.5s;
+    -ms-transition: line-height 0.5s;
+    -o-transition: line-height 0.5s;
+    transition: line-height 0.5s;
 }
 
 header div.center div#menu a:hover{
-	color: #E0821B;
+	color: #222;
 }
 
 header.smaller{
-	height: 50px;
+	background-color: #FFF;
+	box-shadow: 0px 1px 10px #555;
 }
-header.smaller div.center div#logo h1{
-	line-height: 30px;
-}
+
 header.smaller div.center div#logo{
-	width: 65px;
+	background-image: url("logo-actioncode.png");
 }
 header.smaller div.center div#menu nav a{
-	line-height: 0px;
+	color: #555;
+}
+
+header.smaller div.center div#menu nav a:hover{
+	color: #E0821B;
 }
 
 
@@ -177,10 +179,10 @@ section{
 }
 
 section#firstSection {
-	padding-top: 90px;
+	padding-top: 120px;
 	background-image: url("background1.png");
 	height: auto;
-	padding-bottom: 40px;
+	padding-bottom: 70px;
 }
 
 section#firstSection div.center{
