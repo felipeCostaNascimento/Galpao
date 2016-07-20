@@ -81,7 +81,7 @@ div.center{
 
 header div.center div#logo{
 	width: 120px;
-	background-image: url("logo-actioncode-branco.png");
+	background-image: url("../images/logo-actioncode-branco.png");
 	background-repeat:no-repeat;
 	-webkit-background-size:contain;
 	-moz-background-size:contain;
@@ -97,29 +97,6 @@ header div.center div#logo{
     flex-grow: 1;
 }
 
-/*header div.center div#logo h1{
-	color: #FFF;
-	font-weight: bold;
-	font-size: 38px;
-	font-style: italic;
-	line-height: 50px;
-	-webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-    -ms-transition: all 0.2s;
-    -o-transition: all 0.2s;
-    transition: all 0.2s;
-}*/
-
-/*header div.center div#logo img{
-	width: 120px;
-	height: auto;
-	display: block;
-	-webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-    -ms-transition: all 0.2s;
-    -o-transition: all 0.2s;
-    transition: all 0.2s;
-}*/
 
 header div.center div#menu{
 	display: -webkit-box;
@@ -158,7 +135,7 @@ header.smaller{
 }
 
 header.smaller div.center div#logo{
-	background-image: url("logo-actioncode.png");
+	background-image: url("../images/logo-actioncode.png");
 }
 header.smaller div.center div#menu nav a{
 	color: #555;
@@ -180,9 +157,9 @@ section{
 
 section#firstSection {
 	padding-top: 120px;
-	background-image: url("background1.png");
 	height: auto;
 	padding-bottom: 70px;
+	background-color: #AAA;
 }
 
 section#firstSection div.center{
@@ -221,18 +198,17 @@ section#firstSection div#imageSection1{
 	float: right;
 	width: 500px;
 	height: 300px;
-	background-image: url("img-section1.png");
 	background-size: contain;
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 
 section#secondSection {
-	background-image: url("background2.jpg");
+	background-color: orange;
 }
 
 section#thirdSection {
-	background-image: url("background3.jpg");
+	background-color: red;
 }
 
 footer{

@@ -1,0 +1,125 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: "Verdana";
+	background-image: url("bg.png");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	font-size: 2em;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+	text-decoration: none;
+}
+
+
+/* Início */
+
+div#center{
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
+	max-width: 1000px;
+	margin: auto;
+	flex-flow: column wrap;
+	align-items: center;
+	position: relative;
+}
+
+
+header{
+	width: 100%
+}
+
+header div#center div#logotipo{
+	width: 100%;
+	height: 200px;
+	background-image: url("actioncode-logotipo.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+header div#center div#warning{
+	background-color: #edd026;
+	padding: 10px 20px 10px 20px;
+	
+}
+
+section{
+	width: 100%;
+	
+}
+
+
+section div#center div#img-desenvolvimento{
+	max-width: 300px;
+	max-height: 300px;
+	margin: 5px 0px 15px 0px;
+}
+
+section div#center h1{
+	text-align: center;
+	color: #FFF;
+}
+
+section div#center div#face{
+	width: 70px;
+	height: 70px;
+	background-color: rgb(70, 88, 155);
+	background-image: url("fb.png");
+	background-size: 80% auto;
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-top: 15px;
+	border-radius: 35px;
+	border: 1px solid #555;
+}
+
+
